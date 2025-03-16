@@ -1,0 +1,119 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    background: url('assets/images/hero-bg.jpg') no-repeat center center/cover;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3em;
+}
+
+.cta-button {
+    background-color: #ff5722;
+    padding: 10px 20px;
+    color: white;
+    font-size: 1.2em;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Menu Section */
+.menu {
+    padding: 40px;
+    background-color: #f4f4f4;
+}
+
+.menu h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.menu-category {
+    margin-bottom: 40px;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.menu-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+/* Reservation Section */
+.reservation {
+    padding: 40px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.reservation form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: grid;
+    gap: 20px;
+}
+
+.reservation input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Location Section */
+.location {
+    padding: 40px;
+    text-align: center;
+}
+
+#map {
+    height: 400px;
+    background-color: #e0e0e0;
+}
+
+/* Reviews Section */
+.reviews {
+    background-color: #ffeb3b;
+    padding: 40px;
+    text-align: center;
+}
+
+.review {
+    margin-bottom: 20px;
+}
+
+.review p {
+    font-style: italic;
+}
+
+.review span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}

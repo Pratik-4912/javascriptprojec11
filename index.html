@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Name - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Our Restaurant</h1>
+            <p>Fine dining experience with the best cuisine in town</p>
+            <a href="#reservation" class="cta-button">Book a Table</a>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu" id="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-category">
+            <h3>Starters</h3>
+            <div class="menu-item">
+                <img src="dish1.jpeg" alt="Delicious Starter">
+                <p>Butter Chicken - $12.99</p>
+                <p>Creamy and flavorful butter chicken served with naan.</p>
+            </div>
+        </div>
+        
+        <div class="menu-category">
+            <h3>Main Course</h3>
+            <div class="menu-item">
+                <img src="dish2.jpeg" alt="Main Course">
+                <p>Traditional Thali - $20.99</p>
+                <p>Includes rice, chapati, dal, curry, and vegetables.</p>
+            </div>
+        </div>
+
+        <div class="menu-category">
+            <h3>Specialties</h3>
+            <div class="menu-item">
+                <img src="dish3.jpeg" alt="Special Dish">
+                <p>Royal Feast - $25.99</p>
+                <p>A combination of multiple Indian delicacies.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservation Section -->
+    <section class="reservation" id="reservation">
+        <h2>Reserve a Table</h2>
+        <form id="reservationForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            <label for="date">Reservation Date:</label>
+            <input type="date" id="date" required>
+            <label for="time">Reservation Time:</label>
+            <input type="time" id="time" required>
+            <label for="people">Number of People:</label>
+            <input type="number" id="people" min="1" required>
+            <button type="submit" class="cta-button">Book Now</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
