@@ -1,2 +1,2 @@
 # javascriptprojec11
-Restaurant
+This project is a clean and responsive restaurant website homepage built using HTML, CSS, and JavaScript. It features a welcoming hero section with a call-to-action button, a beautifully organized menu showcasing starters, main courses, and specialty dishes with images and descriptions, and a reservation form that allows users to book a table by entering their details. The layout is user-friendly and visually appealing, making it ideal for showcasing a restaurant's offerings and encouraging online reservations. This site can be extended with additional features like reviews, contact information, or online ordering.
